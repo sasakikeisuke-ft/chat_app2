@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
   
   def edit
-
   end
 
   def update
@@ -10,7 +9,9 @@ class UsersController < ApplicationController
     else
       render :edit
     end
+  end
 
+  def destroy
   end
 
   private
